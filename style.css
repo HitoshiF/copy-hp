@@ -1,0 +1,116 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+body{
+}
+
+.header{
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+  /* border: solid 1px; */
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right ul{
+  display: flex;
+  font-weight: bold;
+}
+
+.course{
+  padding: 0 25px;
+}
+
+.main-vsual{
+  width: 100%;
+}
+
+.text{
+  text-align: center;
+  font-weight: bold;
+  padding: 30px 0;
+  font-size: 28px;
+}
+
+.main-contents{
+  display: block;
+  width:980px;
+  margin: 0 auto;
+}
+
+.about-daytra{
+  display: flex;
+}
+
+.about-daytra img{
+  width: 50%;
+}
+
+.about-daytra p{
+  padding-left: 30px;
+  line-height: 1.5;
+}
+
+.course-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-list img{
+  width: 30%;
+}
+
+.course-list-text ul{
+  display: flex;
+}
+
+.list-second{
+  padding-left: 168px;
+}
+
+.list-third{
+  padding-left: 100px;
+}
+
+.content-inpuiry{
+  text-align: center;
+  border-bottom: solid 1px;
+  border-color: #8888;
+}
+
+.email-box{
+  width: 600px;
+  height: 30px;
+  border-radius: 30px;
+  border: solid 2px #9999;
+  color: #777;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+.start-box{
+  background-color: #EA6E67;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  width: 500px;
+  height: 70px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.copyright{
+  text-align: right;
+  padding: 40px 0;
+  font-size: 10px;
+  color: #888;
+}
